@@ -1,6 +1,6 @@
 Naglite3.2
 ========
-Clean, simple Nagios dashboard. Simple configuration. Filter dashboard on hostgroups.
+Clean, simple Nagios dashboard. Simple configuration. Hostgroup filter. 
 
 ![alt text](https://i.imgur.com/0E1kjpV.jpg "Nagios Dashboard")
 
