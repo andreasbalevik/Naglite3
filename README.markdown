@@ -1,24 +1,8 @@
-Naglite3
+Naglite3.2
 ========
-
-Nagios/Icinga status monitor for a NOC or operations room.
-
-Inspired by Naglite (http://www.monitoringexchange.org/inventory/Utilities/AddOn-Projects/Frontends/NagLite)
-and Naglite2 (http://laur.ie/blog/2010/03/naglite2-finally-released/).
-
-Written by Steffen Zieger <me@saz.sh>.
-Licensed under the GPL.
-
-In case of any problems or bug fixes, feel free to contact me.
 
 Requirements
 ------------
-
-Naglite3 is only tested with Nagios3, but it should also work with Nagios2.
-If you're running Nagios2, please let me know.
-
-[nkadel](https://github.com/nkadel) has reported, that it's also working with Icinga.
-
 - Web server of your choice with PHP support
 - PHP 5.2 or newer
 - git
@@ -39,13 +23,13 @@ Customization
 
 For all possible config options have a look at config.php.example
 
-### CSS
-To create a new css, copy lightmode.css from static/css to a new file. Change the colors and point the config.php to the new file
-
 ### Filter on hostgroups
 
 If you want to filter the dashboard on spesific hosts. Create a hostgroup in Nagios.
 use the ?filter=<hostgroup> parameter to filter. Example http://example.com/?filter=my_hostgroup
+
+### CSS
+To create a new css, copy lightmode.css from static/css to a new file. Change the colors and point the config.php to the new file
   
 ### Refresh interval
 You can change the refresh interval (in seconds) through a GET parameter, too.
