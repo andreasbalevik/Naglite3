@@ -2,7 +2,7 @@ Naglite3.2
 ========
 Clean, simple Nagios dashboard. Simple configuration. Filter dashboard on hostgroups.
 
-![alt text](https://imgur.com/0E1kjpV "Nagios Dashboard")
+![alt text](https://i.imgur.com/0E1kjpV.jpg "Nagios Dashboard")
 
 Requirements
 ------------
