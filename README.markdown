@@ -47,28 +47,7 @@ To change dashboard title. Change 'nagios_title' in the configuration file
 
 Display
 -------------
-You can enable/disable information in the dashboard.
+You can enable/disable information output in the configuration file.
 
-/* display host information */
-$display_host_table_output = TRUE;
-$display_host_failure_duration = TRUE;
-$display_host_ip = FALSE;
-
-/* display service information */
-$display_service_attempts = TRUE;
-$display_service_failure_duration = TRUE;
-$display_service_unknown = TRUE;
-$display_service_warning = TRUE;
-$display_service_critical = TRUE;
-
-/* display other information */
-$display_time_and_day = TRUE;
-$display_notifications = TRUE;
-$display_acknowledged = TRUE;
-$display_pending = TRUE;
-
-/* if all host / service are ok - display message */
-$display_all_hosts_up=TRUE;
-$display_all_services_ok=TRUE;
 
 
